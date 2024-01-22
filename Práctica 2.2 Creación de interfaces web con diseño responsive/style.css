@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Cuprum:ital@1&family=Just+Me+Again+Down+Here&family=Lato&family=Playfair+Display:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,700;1,400&display=swap');
+
+:root {
+    --azul-base: #3F5EEB;
+    --azul-70: #2A3F9D;
+    --azul-80: #202F76;
+    --dorado-40: #F1D47F;
+    --negro-50: #2A2A2A;
+    --negro-base: #000000;
+    --azul-40: #7F94F2;
+    --dorado-50: #EEC95F;
+    --azul-90: #151F4E;
+    --dorado-60: #C39E35;
+    --dorado-30: #F5DF9F;
+    --negro-40: #555555;
+    --negro-10: #CCCCCC;
+}
+
+#logo {
+    width: 8vw;
+    display: block;
+}
+
+body {
+    width: 100%;
+    background: #2A2A2A;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+a {
+    color: var(--dorado-40);
+    text-decoration: none;
+}
+
+header {
+
+    width: 100%;
+
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: var(--azul-70);
+    border-radius: 4px;
+    border-style: solid;
+    overflow: hidden;
+    border: 15px;
+    border-color: var(--negro-base);
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+}
+
+#frame_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 40%;
+}
+
+#frame_header>h1 {
+    color: var(--dorado-40, #F1D47F);
+    text-align: left;
+    font-family: 'Just Me Again Down Here', cursive;
+}
+
+
+
+#frame_redirect {
+    display: flex;
+    flex-direction: row;
+}
+
+#frame_redirect>h2 {
+    padding: 5px;
+    font-family: 'Crimson Text', serif;
+    color: var(--dorado-40, #F1D47F);
+    font-style: italic;
+
+
+
+}
+
+
+#redirect>p {
+    color: var(--dorado-40, #F1D47F);
+    font-family: 'Cuprum';
+    font-style: italic;
+
+
+
+}
+
+#hero {
+    width: 100%;
+    margin-bottom: 80px;
+    height: auto;
+    display: block;
+}
+
+#about-me {
+    width: 50%;
+    color: var(--dorado-40, #F1D47F);
+    position: relative;
+    left: 20%;
+}
+
+
+
+#about-me>p {
+    width: 60%;
+    float: right;
+
+}
+
+h2 {
+    color: var(--dorado-40, #F1D47F);
+    width: fit-content;
+}
+
+#shop {
+    position: relative;
+    left: 22%;
+    width: 60%;
+}
+
+#shop>img {
+    float: left;
+    width: 35vw;
+}
+
+#shop-right {
+    color: var(--dorado-40, #F1D47F);
+    float: left;
+    width: 25%;
+}
+
+
+
+#events {
+    position: relative;
+    left: 22%;
+    width: 70%;
+}
+
+#events-right {
+    color: var(--dorado-40);
+    position: relative;
+    width: 70%;
+    left: 22%;
+}
+
+#events-right>p {
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+
+}
+
+
+
+
+
+footer>p {
+    color: var(--dorado-40);
+    font-family: 'Cuprum';
+    text-align: center;
+    align-content: center;
+    background-color: var(--azul-70);
+    margin-bottom: 0;
+    height: 40px;
+}
+
+footer {
+    width: 100%;
+}
+
+
+
+#payment {
+    float: left;
+}
+
+#main {
+    width: 70%;
+    position: relative;
+    left: 22%;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--azul-base);
+    --bs-btn-hover-bg: var(--azul-40);
+    --bs-btn-color: var(--negro-base);
+    --bs-btn-hover-color: var(--negro-base);
+    --bs-btn-active-color: var(--dorado-50);
+    --bs-btn-active-bg: var(--azul-90);
+}
+
+#desplegable {
+    display: none;
+}
+
+
+
+#calendar {
+    float: left;
+    padding-right: 10%;
+    margin-top: 5%;
+
+}
+
+form {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 5px;
+    border-color: var(--dorado-40);
+    border-style: solid;
+    color: var(--dorado-60);
+    width: 50%;
+    border-radius: 22px;
+    float: left;
+
+}
+
+form>div>input {
+    background-color: var(--azul-70);
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    border: 2px;
+    color: var(--dorado-40);
+    border-color: var(--dorado-40);
+    border-style: solid;
+    padding: 0%;
+    border-radius: 8px;
+
+}
+
+form>div>input::placeholder {
+    color: var(--dorado-40);
+
+}
+
+form>div>.doble {
+    width: 30%;
+}
+
+form>div>.doble1 {
+    width: 27%;
+}
+
+form>div>.grand {
+    width: 65%;
+}
+
+form>div>img {
+    margin-left: 5px;
+}
+
+#content {
+    position: relative;
+    left: 10%;
+}
+
+#content>p {
+    margin-bottom: 0px;
+
+}
+
+#payment-label {
+    position: relative;
+    left: 35%;
+    width: 50%;
+
+}
+
+#label-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+}
+
+#captcha {
+    width: 75%;
+    margin-bottom: 5%;
+}
+
+#pay {
+    width: 75%;
+    margin-bottom: 5%;
+
+}
+
+#desplegable>ul {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.btn-secondary {
+    --bs-btn-bg: var(--negro-40);
+    --bs-btn-hover-bg: var(--negro-50);
+    --bs-btn-active-bg: var(--negro-base);
+    --bs-btn-color: var(--negro-10);
+    --bs-btn-hover-color: var(--negro-10);
+    --bs-btn-active-color: var(--negro-10);
+
+
+}
+
+.btn-warning {
+    --bs-btn-bg: var(--dorado-30);
+    --bs-btn-hover-bg: var(--dorado-50);
+    --bs-btn-active-bg: var(--dorado-60);
+    --bs-btn-color: var(--negro-base);
+    --bs-btn-hover-color: var(--negro-base);
+    --bs-btn-active-color: var(--negro-base);
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 200px;
+    border-radius: 30px;
+    font-style: normal;
+    font-family: Cuprum;
+    font-size: 1vw;
+
+
+}
+
+#buy {
+    width: 90%;
+}
+
+#reservation {
+    float: left;
+    width: 25%;
+
+}
+
+p {
+    font-size: 1vw;
+}
+
+h1,
+h2 {
+    font-size: 2vw;
+
+}
+
+#about-me,
+#shop,
+#events {
+    margin-bottom: 80px;
+}
+
+#about-me>h2,
+#events>h2 {
+    float: left;
+}
+
+#centrado {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+#contenedor {
+    position: relative;
+    width: 100%;
+}

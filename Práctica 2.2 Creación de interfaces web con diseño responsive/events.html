@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+
+        <a href="index.html">
+            <div id="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 172 121" fill="none" class="img-fluid">
+                    <path
+                        d="M142.613 51.9073L141.763 54.118L144.085 54.5856C158.868 57.5627 170 70.6082 170 86.2143C170 104.041 155.502 118.5 137.6 118.5H38.7C18.4327 118.5 2 102.112 2 81.9286C2 65.9864 12.2386 52.4198 26.5155 47.4141L27.9071 46.9262L27.8524 45.4525C27.8253 44.7231 27.8 44.037 27.8 43.3571C27.8 20.7894 46.1408 2.5 68.8 2.5C83.9962 2.5 97.2443 10.721 104.345 22.9843L105.414 24.8308L107.188 23.6446C110.954 21.1254 115.514 19.6429 120.4 19.6429C133.545 19.6429 144.2 30.2716 144.2 43.3571C144.2 46.372 143.63 49.2631 142.613 51.9073Z"
+                        fill="#202F76" stroke="#F1D47F" stroke-width="4" />
+                    <path
+                        d="M114.5 70.0213C115.289 70.1687 116.033 70.4977 116.673 70.9823C117.312 71.4669 117.83 72.0937 118.186 72.8132L131.519 99.8056L130.872 100.66L113.959 87.8461C114.008 87.4219 114.099 87.0066 114.038 86.5634C113.648 83.736 111.039 81.7593 108.211 82.1492C105.384 82.5392 103.407 85.1484 103.797 87.9758C104.187 90.8032 106.796 92.7799 109.623 92.39C110.067 92.3288 110.442 92.1287 110.837 91.9666L127.75 104.78L127.105 105.632L97.5108 100.103C96.7219 99.9562 95.9781 99.6273 95.3384 99.1427C94.6987 98.658 94.1807 98.031 93.8255 97.3114L86.6786 84.5891L100.318 66.585L114.5 70.0213ZM62.4666 35.6807L96.1689 63.5603L82.6711 81.3768L46.7093 56.4797C31.4644 46.3417 48.6894 23.8418 62.4666 35.6807Z"
+                        fill="#F1D47F" />
+                </svg>
+
+            </div>
+        </a>
+        <div id="frame_header">
+            <h1>Sueños de un artista</h1>
+            <div id="frame_redirect">
+                <h2 class="principal"><a href="index.html"> Home</a></h2>
+                <h2 class="principal">Shop</h2>
+                <h2 class="principal"><a href="events.html">Events</a></h2>
+
+            </div>
+        </div>
+
+    </header>
+
+    <div id="redirect">
+        <p> <a href="index.html">Home</a> / <a href="events.html"> Events</a></p>
+    </div>
+
+    <img id="hero" class="img-fluid" src="images/hero2.png" alt="">
+
+
+
+
+    <div id="main">
+        <img id="calendar" class="img-fluid" src="images/calendar.png" alt="">
+        <form action="">
+            <div id="content">
+                <div id="label-container">
+                    <p id="payment-label ">Payment</p>
+                </div>
+                <br>
+
+                <img src='images/calendar-icon.png' alt="">
+                <input class="doble overlay" type="text" name="" id="" placeholder=" Date">
+                <input class="doble" type=" Number" placeholder=" Number">
+
+                <br>
+                <img src="images/card.png" alt="">
+                <input class="grand" type="text" placeholder=" Email" name="" id="">
+                <br>
+                <img src="images/card.png" alt="">
+                <input class="grand" type="text" placeholder=" Card number" name="" id="">
+                <br>
+                <img src="images/cvc.png" alt="">
+                <input class="doble1" type="text" placeholder=" CVC" name="" id="">
+                <img src="images/mmyy.png" alt="">
+                <input class="doble1" type="text" placeholder=" MM/YY" name="" id="">
+                <br>
+                <button id="captcha" class="btn btn-secondary">Capctha</button>
+                <br>
+                <button id="pay" class="btn btn-primary">Pay now</button>
+                <div id="label-container">
+                    <p><img src="images/lock.png" alt=""> Your transaction is secured with SSL encryption</p>
+
+                </div>
+                <br>
+        </form>
+    </div>
+
+
+    </div>
+
+
+
+    <div id="desplegable">
+        <ul>
+            <li> <button class="btn btn-warning"> <img src="images/art.png" alt=""> Artstation</button>
+            </li>
+            <li> <button class="btn btn-warning"> <img src="images/instagram.png" alt=""> Instagram</button>
+            </li>
+            <li> <button class="btn btn-warning"><img src="images/youtube.png" alt=""> Youtube</button>
+            </li>
+            <li> <button class="btn btn-warning"><img src="images/twitter.png" alt=""> Twitter</button>
+            </li>
+        </ul>
+    </div>
+    <footer>
+
+        <p> Legal Notes| <span onclick="mostrar()">Social</span></p>
+    </footer>
+    <script>
+        function mostrar() {
+            var desp = document.getElementById("desplegable");
+            var estilo = window.getComputedStyle(desp);
+
+            if (desp.style.display === "none" || desp.style.display === "") {
+                desp.style.display = "block";
+            } else {
+                desp.style.display = "none";
+            }
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
