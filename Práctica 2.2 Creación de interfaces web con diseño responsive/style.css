@@ -34,6 +34,7 @@ body {
 a {
     color: var(--dorado-40);
     text-decoration: none;
+    width: auto;
 }
 
 header {
@@ -377,4 +378,87 @@ h2 {
 #contenedor {
     position: relative;
     width: 100%;
+}
+
+@media (max-width:1000px) {
+
+    h1,
+    h2 {
+        font-size: 3vw;
+    }
+
+    p {
+        font-size: 2vw;
+
+    }
+
+    #shop>img {
+        float: left;
+        width: 40vw;
+    }
+
+    #buy,
+    #reservation {
+        width: 20vw;
+    }
+
+
+
+}
+
+@media (max-width:500px) {
+
+    h1,
+    h2 {
+        font-size: 4vw;
+    }
+
+    p {
+        font-size: 3vw;
+        width: 100%;
+    }
+
+    #shop-right {
+        width: 100%;
+    }
+
+
+
+    #shop>img {
+        float: left;
+        width: 50vw;
+    }
+
+    #buy,
+    #reservation {
+        width: 30vw;
+        --bs-btn-font-size: 50px;
+    }
+
+    form {
+        width: 70vw;
+    }
+
+    #content {
+        width: 35vw;
+    }
+
+    input {
+        width: 1vw;
+    }
+
+}
+
+@media (max-width:750px) {
+    form {
+        width: 65vw;
+    }
+
+    #content {
+        width: 55vw;
+    }
+
+    input {
+        width: 10vw;
+    }
 }
