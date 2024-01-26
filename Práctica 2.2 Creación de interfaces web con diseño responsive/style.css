@@ -293,12 +293,12 @@ form>div>img {
 }
 
 #captcha {
-    width: 55%;
+
     margin-bottom: 5%;
 }
 
 #pay {
-    width: 55%;
+
     margin-bottom: 5%;
 
 }
@@ -395,7 +395,9 @@ h2 {
 #captcha,
 #pay {
     width: 25vw;
-    font-size: 2vw;
+    height: 3.2vw;
+
+    font-size: 1.7vw;
 }
 
 @media (max-width:1000px) {
